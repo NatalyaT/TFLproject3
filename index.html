@@ -11,25 +11,26 @@
     <div class="row">
         <span1 class="col-lg-6 col-md-6">
             <h2>You</h2>
-            <img id="you"></img>
+            <img id="userChoice"></img>
         </span1>
 		<span2 class="col-lg-6 col-md-6">
 			<h2>Computer</h2>
-			<img id="comp"></img>
+			<img id="compChoice"></img>
 		</span2>
 		<h2>Result</h2>
 	</div>
 	
 	<div class="clearfix">
 		<div class="img-container">
-			<img src="assets/rock.png" alt="Rock" style="width=100%" onclick="random(0)">
+			<img src="assets/rock.png" alt="Rock" style="width=100%" onclick="checkResult(0)">
 		</div>
 		<div class="img-container">
-			<img src="assets/paper.png" alt="Paper" style="width=100%" onclick="random(1)">
+			<img src="assets/paper.png" alt="Paper" style="width=100%" onclick="checkResult(1)">
 		</div>
 		<div class="img-container">
-			<img src="assets/scissors.png" alt="Scissors" style="width=100%" onclick="random(2)">
+			<img src="assets/scissors.png" alt="Scissors" style="width=100%" onclick="checkResult(2)">
 		</div>
+		<h2 id ="result"></h2>
 	</div>
 <script type="text/javascript" src="script.js"></script>    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
